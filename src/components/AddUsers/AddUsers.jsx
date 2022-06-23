@@ -73,6 +73,7 @@ function AddUsers({ addUserHandler }) {
           <div>
             <label htmlFor='fullName'>Full Name</label>
             <input
+              autocomplete='off'
               type='text'
               id='fullName'
               value={enteredName}
@@ -83,6 +84,7 @@ function AddUsers({ addUserHandler }) {
           <div>
             <label htmlFor='age'>Age</label>
             <input
+              autocomplete='off'
               type='text'
               id='age'
               value={enteredAge}
@@ -93,6 +95,7 @@ function AddUsers({ addUserHandler }) {
           <div>
             <label htmlFor='email'>Email Address</label>
             <input
+              
               type='text'
               id='email'
               value={enteredEmail}
